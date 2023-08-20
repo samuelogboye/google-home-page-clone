@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  margin-top: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.btn {
+  margin-bottom: 30px;
+}
+
+.logo-img {
+  display: block;
+  width: 300px;
+  margin: 250px auto 30px;
+}
+
+.search-input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 24px;
+  width: 500px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #dfe1e5;
+  font-size: 16px;
+}
+
+.btn-wrap,
+.go-text {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 10px;
+  background: #f2f2f9;
+  border: none;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1a73e8;
+}
+
+a {
+  text-decoration: none;
+}
+
+a + a {
+  margin-left: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.go-text {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer-page {
+  background-color: rgba(226, 236, 246, 0.568);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 200px;
+  font-style: normal;
+  margin-left: 0;
+}
+
+.nigeria {
+  border-bottom: 2px;
+  padding: 10px 2px 2px 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.foot-wrap {
+  display: flex;
+  align-items: center;
+  border-top: 0.5px solid;
+  border-top: 1px solid;
+  flex-direction: column;
+}
+
+.some-text a,
+.nigeria {
+  color: grey;
+}
+
+.under {
+  display: flex;
+  flex-direction: row;
+}
+
+.under a {
+  flex: 1;
+  text-align: center;
+  border-left: 100px;
+  color: grey;
+}
+
+.under-text {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.some-text {
+  margin-top: 15px;
+  color: grey;
+  bottom: 110px;
+}
+.under-text a:hover {
+  color: #1a73e8;
+}
