@@ -135,3 +135,42 @@ a:hover {
 .under-text a:hover {
   color: #1a73e8;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .logo-img {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  .btn {
+    margin: 8px 2px;
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .go-text {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+  .nigeria {
+    font-size: 16px;
+  }
+
+  .under-text {
+    margin: 0 5px;
+  }
+}
