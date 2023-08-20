@@ -138,6 +138,9 @@ a:hover {
 
 /* Responsive Styles */
 @media screen and (max-width: 600px) {
+  body {
+    margin-top: 200px;
+  }
   .container {
     padding: 20px;
   }
@@ -162,15 +165,24 @@ a:hover {
   }
 
   .go-text {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 15px;
   }
 
   .nigeria {
     font-size: 16px;
+    margin-bottom: 0;
   }
 
   .under-text {
     margin: 0 5px;
+    font-size: 9px;
+  }
+
+  .foot-wrap {
+    width: fit-content;
+  }
+  .footer-page {
+    height: 150px;
   }
 }
